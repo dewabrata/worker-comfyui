@@ -20,7 +20,7 @@ RUN wget -O "/comfyui/models/text_encoders/clip_l.safetensors" "https://huggingf
 RUN wget -O "/comfyui/models/text_encoders/t5xxl_fp16.safetensors" "https://huggingface.co/comfyanonymous/flux_text_encoders/resolve/main/t5xxl_fp16.safetensors?download=true"
 RUN wget -O "/comfyui/models/text_encoders/google_t5-v1_1-xxl_encoderonly-fp8_e4m3fn.safetensors" "https://huggingface.co/Madespace/clip/resolve/main/google_t5-v1_1-xxl_encoderonly-fp8_e4m3fn.safetensors?download=true"
 RUN wget -O "/comfyui/models/text_encoders/ViT-L-14-TEXT-detail-improved-hiT-GmP-TE-only-HF.safetensors" "https://huggingface.co/zer0int/CLIP-GmP-ViT-L-14/resolve/main/ViT-L-14-TEXT-detail-improved-hiT-GmP-TE-only-HF.safetensors?download=true"
-RUN wget -O "/comfyui/models/lora/pejuang_kemerdekaan_000004500.safetensors" "https://huggingface.co/bhismaperkasa/pejuang_kemerdekaan/resolve/main/pejuang_kemerdekaan_000004500.safetensors?download=true"
+RUN wget -O "/comfyui/models/loras/pejuang_kemerdekaan_000004500.safetensors" "https://huggingface.co/bhismaperkasa/pejuang_kemerdekaan/resolve/main/pejuang_kemerdekaan_000004500.safetensors?download=true"
 
 RUN comfy-node-install \
     was-node-suite-comfyui
